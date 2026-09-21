@@ -1,4 +1,4 @@
-# ✈️ Supervision intelligente des équipements CNS
+#  Supervision intelligente des équipements CNS
 
 ##  Présentation du projet
 
@@ -208,9 +208,9 @@ Le dashboard permet de présenter l'état des équipements selon différents niv
 
 | État      | Signification                                       |
 | --------- | --------------------------------------------------- |
-| 🟢 Normal | Paramètres dans une zone normale                    |
-| 🟠 Alerte | Écart nécessitant une surveillance                  |
-| 🔴 Défaut | Situation présentant un niveau d'anomalie important |
+|  Normal | Paramètres dans une zone normale                    |
+|  Alerte | Écart nécessitant une surveillance                  |
+|  Défaut | Situation présentant un niveau d'anomalie important |
 
 ### Niveau de risque IA
 
