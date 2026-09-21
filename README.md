@@ -1,6 +1,6 @@
 # ✈️ Supervision intelligente des équipements CNS
 
-## 📌 Présentation du projet
+##  Présentation du projet
 
 Ce projet a été réalisé dans le cadre d'un stage à **l'Aéroport Fès-Saïss – ONDA**.
 
@@ -17,7 +17,7 @@ La solution développée combine :
 
 ---
 
-## 🎯 Objectifs
+##  Objectifs
 
 Les principaux objectifs du projet sont :
 
@@ -30,11 +30,11 @@ Les principaux objectifs du projet sont :
 
 ---
 
-## 🛩️ Équipements supervisés
+##  Équipements supervisés
 
 Le dashboard permet actuellement de superviser trois équipements liés au système ILS/DME de l'aéroport :
 
-### 📡 LOC — Localizer
+###  LOC — Localizer
 
 * **Identifiant :** LFA
 * **Catégorie :** CAT II
@@ -42,7 +42,7 @@ Le dashboard permet actuellement de superviser trois équipements liés au syst�
 * **Piste :** RWY 27
 * **Nomenclature :** 7014B4
 
-### 📡 GP — Glide Path
+###  GP — Glide Path
 
 * **Identifiant :** LFA
 * **Catégorie :** CAT II
@@ -50,7 +50,7 @@ Le dashboard permet actuellement de superviser trois équipements liés au syst�
 * **Piste :** RWY 27
 * **Nomenclature :** 7033B4
 
-### 📡 DME — Distance Measuring Equipment
+###  DME — Distance Measuring Equipment
 
 * **Identifiant :** LFA
 * **Catégorie :** CAT II
@@ -60,7 +60,7 @@ Le dashboard permet actuellement de superviser trois équipements liés au syst�
 
 ---
 
-## 🧠 Pipeline de traitement
+##  Pipeline de traitement
 
 Le projet suit une chaîne de traitement permettant de passer des données de supervision à leur analyse et à leur visualisation.
 
@@ -87,7 +87,7 @@ Le pipeline comprend principalement les étapes suivantes :
 7. **Visualisation** — Présentation des informations et des résultats dans une interface interactive développée avec **Streamlit**.
 ---
 
-## 🏗️ Architecture du projet
+##  Architecture du projet
 
 L'organisation générale du projet est la suivante :
 
@@ -123,7 +123,7 @@ Projet_cns/
 
 ---
 
-## 🗂️ Organisation des principaux fichiers
+##  Organisation des principaux fichiers
 
 ### `scripts/01_simulation_donnees.py`
 
@@ -168,7 +168,7 @@ Le dashboard est développé avec **Streamlit** et permet de :
 
 ---
 
-## 🤖 Intelligence Artificielle
+##  Intelligence Artificielle
 
 ### Isolation Forest
 
@@ -200,7 +200,7 @@ Visualisation dans Streamlit
 
 ---
 
-## ⚠️ Niveaux d'état et de risque
+##  Niveaux d'état et de risque
 
 Le dashboard permet de présenter l'état des équipements selon différents niveaux.
 
@@ -224,7 +224,7 @@ Ces informations permettent de compléter les indicateurs classiques par une ana
 
 ---
 
-## 📊 Dashboard de supervision
+##  Dashboard de supervision
 
 L'application fournit une interface interactive permettant de consulter les informations relatives aux équipements CNS, d'analyser leur comportement et d'interpréter les résultats de la détection des anomalies.
 
@@ -247,7 +247,7 @@ L'application fournit une interface interactive permettant de consulter les info
 *Figure 4 — Recommandations générées à partir des résultats de l'analyse*
 ---
 
-## 📈 Fonctionnalités du dashboard
+##  Fonctionnalités du dashboard
 
 Le dashboard permet notamment :
 
@@ -269,7 +269,7 @@ Les périodes disponibles permettent notamment d'analyser :
 
 ---
 
-## 🗄️ Stockage des données
+##  Stockage des données
 
 Les données utilisées par l'application sont stockées dans une base **SQLite** :
 
@@ -283,7 +283,7 @@ Le projet utilise également des fichiers de données intermédiaires lorsque ce
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 | Technologie      | Utilisation                             |
 | ---------------- | --------------------------------------- |
@@ -298,7 +298,7 @@ Le projet utilise également des fichiers de données intermédiaires lorsque ce
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Cloner ou récupérer le projet
 
@@ -326,7 +326,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Lancement de l'application
+##  Lancement de l'application
 
 Une fois les dépendances installées, lancer le dashboard avec :
 
@@ -338,7 +338,7 @@ L'application Streamlit s'ouvre ensuite dans le navigateur.
 
 ---
 
-## 🔄 Fonctionnement global
+## Fonctionnement global
 
 Le fonctionnement général de la solution peut être résumé comme suit :
 
@@ -372,7 +372,7 @@ Le fonctionnement général de la solution peut être résumé comme suit :
 
 ---
 
-## 🎯 Résultat attendu
+##  Résultat attendu
 
 La solution proposée permet de disposer d'un prototype de supervision capable de combiner :
 
@@ -386,7 +386,7 @@ L'objectif est ainsi de fournir une approche permettant d'assister la supervisio
 
 ---
 
-## 🏢 Contexte du stage
+##  Contexte du stage
 
 **Organisme d'accueil :** Office National des Aéroports — ONDA
 **Site :** Aéroport Fès-Saïss
@@ -395,7 +395,7 @@ L'objectif est ainsi de fournir une approche permettant d'assister la supervisio
 
 ---
 
-## 👩‍💻 Réalisation
+##  Réalisation
 
 Projet réalisé dans le cadre d'un stage en **Big Data & Intelligence Artificielle**.
 
@@ -403,6 +403,6 @@ Projet réalisé dans le cadre d'un stage en **Big Data & Intelligence Artificie
 
 ---
 
-## 📌 Remarque
+##  Remarque
 
 Ce projet constitue un **prototype académique de supervision intelligente**. Les données utilisées dans cette version servent à reproduire le fonctionnement d'une chaîne de supervision et à démontrer l'intégration entre traitement des données, Machine Learning et visualisation interactive.
