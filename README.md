@@ -245,6 +245,7 @@ L'application fournit une interface interactive permettant de consulter les info
 ![Recommandations IA](/assets/Screenchots/Recommandations%20IA.png)
 
 *Figure 4 — Recommandations générées à partir des résultats de l'analyse*
+
 ---
 
 ##  Fonctionnalités du dashboard
